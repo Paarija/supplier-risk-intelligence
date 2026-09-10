@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/license-MIT-334155" alt="MIT license">
 </p>
 
-![A container port, factory, and warehouse connected by global logistics routes](docs/assets/supplier-risk-intelligence-hero.png)
+
 
 ## The problem
 
