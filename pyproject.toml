@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supplier-risk-intelligence"
+version = "0.1.0"
+description = "Explainable supplier disruption intelligence for procurement teams"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "streamlit>=1.40,<2",
+  "pandas>=2.2,<3",
+  "plotly>=5.24,<7",
+  "requests>=2.32,<3",
+  "numpy>=2,<3",
+  "scikit-learn>=1.6,<2",
+  "xgboost>=3,<4",
+  "shap>=0.47,<1",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["supplyshield*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]

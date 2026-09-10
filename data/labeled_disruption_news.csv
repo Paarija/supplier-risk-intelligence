@@ -1,0 +1,65 @@
+article_id,published_at,title,text,event_type,is_disruption,split,source_type
+N001,2025-01-05,"Dock workers begin strike","Dock workers began an indefinite strike at the Rotterdam terminal, stopping container loading operations.","Port or transport disruption",1,train,synthetic
+N002,2025-02-11,"Cargo queues grow at major port","Severe port congestion has delayed electronics shipments by more than nine days.","Port or transport disruption",1,train,synthetic
+N003,2025-03-17,"Rail freight service suspended","A national rail strike suspended freight routes serving industrial suppliers.","Port or transport disruption",1,train,synthetic
+N004,2025-04-22,"Bridge closure blocks truck traffic","An emergency bridge closure is forcing cargo trucks onto routes that add four days.","Port or transport disruption",1,train,synthetic
+N005,2025-05-09,"Container terminal operating at half capacity","Equipment failure reduced terminal capacity and created a growing shipping backlog.","Port or transport disruption",1,train,synthetic
+N006,2025-06-14,"Customs action slows border freight","A customs staff walkout is delaying commercial vehicles at the border.","Port or transport disruption",1,validation,synthetic
+N007,2025-07-19,"Barge collision closes export channel","Authorities closed the shipping channel after a collision blocked vessel traffic.","Port or transport disruption",1,test,synthetic
+N008,2025-08-24,"Airport cargo handlers announce stoppage","A two-day cargo handling stoppage is expected to delay air freight deliveries.","Port or transport disruption",1,test,synthetic
+N009,2025-01-08,"Typhoon shuts coastal factories","A severe typhoon forced factories and ports to close across the coastal region.","Extreme weather",1,train,synthetic
+N010,2025-02-15,"Flood warning threatens industrial zone","Rising flood water may cut road access to chemical plants for seven days.","Extreme weather",1,train,synthetic
+N011,2025-03-20,"Earthquake damages regional roads","An earthquake damaged bridges and interrupted deliveries to manufacturers.","Extreme weather",1,train,synthetic
+N012,2025-04-25,"Wildfire forces warehouse evacuation","A fast-moving wildfire caused an emergency evacuation and road closures.","Extreme weather",1,train,synthetic
+N013,2025-05-12,"Cyclone disrupts east coast shipping","The cyclone closed ports and suspended coastal cargo movement.","Extreme weather",1,train,synthetic
+N014,2025-06-17,"Heatwave limits factory shifts","Extreme heat led factories to reduce operating hours and production capacity.","Extreme weather",1,validation,synthetic
+N015,2025-07-22,"Landslide cuts mountain supply route","Heavy rain triggered a landslide that blocked the only road to the supplier.","Extreme weather",1,test,synthetic
+N016,2025-08-27,"Drought restricts river cargo loads","Low river levels forced vessels to carry less cargo, increasing delivery times.","Extreme weather",1,test,synthetic
+N017,2025-01-10,"Automotive plant halts production","A machinery failure caused the component factory to shut down for a week.","Factory shutdown",1,train,synthetic
+N018,2025-02-18,"Fire closes semiconductor facility","A fire damaged production equipment and closed the chip fabrication plant.","Factory shutdown",1,train,synthetic
+N019,2025-03-23,"Power outage stops assembly lines","An extended power outage stopped all production at the supplier facility.","Factory shutdown",1,train,synthetic
+N020,2025-04-28,"Safety inspection suspends operations","Regulators ordered the factory to remain closed pending a safety investigation.","Factory shutdown",1,train,synthetic
+N021,2025-05-15,"Chemical leak triggers plant evacuation","The supplier evacuated its plant and suspended production after a chemical leak.","Factory shutdown",1,train,synthetic
+N022,2025-06-20,"Maintenance problem extends production halt","Unexpected equipment damage extended the factory shutdown by five days.","Factory shutdown",1,validation,synthetic
+N023,2025-07-25,"Labor dispute closes parts factory","Management locked down the facility after negotiations failed with plant workers.","Factory shutdown",1,test,synthetic
+N024,2025-08-30,"Water contamination pauses food production","The manufacturer stopped production while its water system is inspected.","Factory shutdown",1,test,synthetic
+N025,2025-01-13,"Chip shortage hits appliance makers","A semiconductor shortage is limiting production of household appliances.","Material shortage",1,train,synthetic
+N026,2025-02-21,"Steel scarcity increases supplier lead times","Manufacturers report that limited steel supply has doubled order lead times.","Material shortage",1,train,synthetic
+N027,2025-03-26,"Battery material supply tightens","A shortage of processed lithium is affecting battery component deliveries.","Material shortage",1,train,synthetic
+N028,2025-05-01,"Packaging resin unavailable","Suppliers cannot obtain enough resin and have reduced packaging output.","Material shortage",1,train,synthetic
+N029,2025-05-18,"Medical glass shortage delays orders","Limited glass vial availability has created a six-week order backlog.","Material shortage",1,train,synthetic
+N030,2025-06-23,"Copper supply constraints affect cable makers","A raw material shortage is slowing electrical cable production.","Material shortage",1,validation,synthetic
+N031,2025-07-28,"Rare-earth export limits squeeze manufacturers","New export limits have reduced the availability of critical rare-earth materials.","Material shortage",1,test,synthetic
+N032,2025-09-02,"Supplier allocates scarce components","Customers will receive only half their orders because key components are unavailable.","Material shortage",1,test,synthetic
+N033,2025-01-16,"Border conflict interrupts trade route","Armed conflict near the border has stopped commercial freight movement.","Geopolitical disruption",1,train,synthetic
+N034,2025-02-24,"New sanctions restrict industrial exports","Sanctions prohibit exports of machinery and replacement parts to the region.","Geopolitical disruption",1,train,synthetic
+N035,2025-03-29,"Government closes border crossing","Political unrest led authorities to close a major freight border crossing.","Geopolitical disruption",1,train,synthetic
+N036,2025-05-04,"Tariff increase changes sourcing costs","A new import tariff will sharply increase the cost of sourced components.","Geopolitical disruption",1,train,synthetic
+N037,2025-05-21,"Civil unrest blocks industrial district","Protests and political conflict are preventing trucks from reaching factories.","Geopolitical disruption",1,train,synthetic
+N038,2025-06-26,"Export ban covers strategic minerals","The government introduced an immediate export ban on strategic minerals.","Geopolitical disruption",1,validation,synthetic
+N039,2025-07-31,"Shipping diverted after regional attack","Carriers are avoiding the region and using routes that add two weeks.","Geopolitical disruption",1,test,synthetic
+N040,2025-09-05,"Emergency rule restricts cross-border payments","New controls may prevent suppliers from receiving international payments.","Geopolitical disruption",1,test,synthetic
+N041,2025-01-19,"Supplier files for bankruptcy protection","The parts manufacturer filed for bankruptcy and warned customers about orders.","Financial distress",1,train,synthetic
+N042,2025-02-27,"Creditors seek liquidation of manufacturer","Creditors asked a court to liquidate the financially distressed supplier.","Financial distress",1,train,synthetic
+N043,2025-04-02,"Factory misses bond payment","The manufacturer defaulted on debt and is seeking emergency financing.","Financial distress",1,train,synthetic
+N044,2025-05-07,"Auditor raises insolvency warning","The company may not have enough cash to continue operating through the year.","Financial distress",1,train,synthetic
+N045,2025-05-24,"Supplier delays payroll amid cash crisis","A severe cash shortage caused delayed wages and reduced production shifts.","Financial distress",1,train,synthetic
+N046,2025-06-29,"Lender freezes supplier credit line","The loss of financing creates a high risk of operational default.","Financial distress",1,validation,synthetic
+N047,2025-08-03,"Key supplier begins restructuring talks","The manufacturer hired advisers after reporting it could breach loan terms.","Financial distress",1,test,synthetic
+N048,2025-09-08,"Court appoints administrator to components firm","An administrator will assess whether the insolvent supplier can continue trading.","Financial distress",1,test,synthetic
+N049,2025-01-22,"Brake component recall announced","The supplier recalled defective brake components after safety failures.","Quality or recall",1,train,synthetic
+N050,2025-03-02,"Contamination found in ingredient batch","Testing identified contamination and customers were told to stop using the batch.","Quality or recall",1,train,synthetic
+N051,2025-04-05,"Defective connectors trigger customer returns","A quality failure caused widespread returns of electrical connectors.","Quality or recall",1,train,synthetic
+N052,2025-05-10,"Regulator orders medical device recall","The regulator ordered an urgent recall after devices failed inspection.","Quality or recall",1,train,synthetic
+N053,2025-05-27,"Supplier investigates cracked components","Multiple customers reported cracks and suspended use of the affected parts.","Quality or recall",1,train,synthetic
+N054,2025-07-02,"Incorrect labels prompt food product withdrawal","Products were withdrawn because packages omitted an allergen warning.","Quality or recall",1,validation,synthetic
+N055,2025-08-06,"Battery defect creates overheating risk","The manufacturer advised customers to return batteries from affected lots.","Quality or recall",1,test,synthetic
+N056,2025-09-11,"Failed audit blocks new supplier shipments","A major quality audit failure led the buyer to quarantine incoming products.","Quality or recall",1,test,synthetic
+N057,2025-01-25,"Port reports normal operations","The terminal is operating normally with no delays or cargo disruption.","No disruption",0,train,synthetic
+N058,2025-03-05,"Factory reopens after scheduled holiday","Employees returned as planned and all production lines are available.","No disruption",0,train,synthetic
+N059,2025-04-08,"Supplier confirms no material shortage","Inventory is sufficient and customer orders remain on schedule.","No disruption",0,train,synthetic
+N060,2025-05-13,"Storm moves away from industrial region","Factories were not affected and transportation services continue normally.","No disruption",0,train,synthetic
+N061,2025-05-30,"Company completes routine safety drill","The exercise did not interrupt production or customer deliveries.","No disruption",0,train,synthetic
+N062,2025-07-05,"Union and port operator reach agreement","A planned strike was cancelled and cargo handling will continue.","No disruption",0,validation,synthetic
+N063,2025-08-09,"Manufacturer denies bankruptcy report","The company remains solvent and published evidence of adequate liquidity.","No disruption",0,test,synthetic
+N064,2025-09-14,"Recall affects consumer division only","The industrial components supplied to businesses are not affected by the recall.","No disruption",0,test,synthetic

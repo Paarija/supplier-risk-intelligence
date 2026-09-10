@@ -1,0 +1,10 @@
+supplier_id,supplier_name,aliases,location,avg_delay_days,risk_score,on_time_delivery_rate,quality_defect_rate,daily_revenue_exposure,expected_delay_days,backup_capacity_pct
+SUP-001,Orion Components,Orion Electronics|Orion Components Ltd,"Shenzhen, China",13.5,78,0.72,0.048,42000,14,20
+SUP-002,HarborTextiles,Harbor Textiles Ltd,"Chittagong, Bangladesh",8.2,61,0.81,0.031,26000,9,35
+SUP-003,NorthStar Metals,North Star Metals,"Hamburg, Germany",4.1,43,0.91,0.018,31000,6,55
+SUP-004,Sakura Precision,Sakura Precision Co,"Osaka, Japan",2.5,27,0.96,0.009,18500,5,70
+SUP-005,Andes Packaging,Andes Pack,"Sao Paulo, Brazil",6.8,55,0.86,0.026,22000,8,25
+SUP-006,Delta Chemicals,Delta Chemical Corp,"Houston, USA",11.4,73,0.75,0.041,50000,12,10
+SUP-007,Meridian Plastics,Meridian Polymer,"Singapore",3.8,39,0.92,0.015,28000,7,65
+SUP-008,Nile Industrial,Nile Industries,"Cairo, Egypt",7.3,58,0.84,0.029,24000,10,30
+

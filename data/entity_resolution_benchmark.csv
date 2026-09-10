@@ -1,0 +1,36 @@
+case_id,mention,candidate_name,aliases,candidate_location,context_location,expected_match,split,challenge
+E001,Orion Components,Orion Components,"Orion Electronics|Orion Components Ltd","Shenzhen, China",Shenzhen,1,train,exact
+E002,Orion Electronics,Orion Components,"Orion Electronics|Orion Components Ltd","Shenzhen, China",China,1,train,alias
+E003,Orion Component Ltd,Orion Components,"Orion Electronics|Orion Components Ltd","Shenzhen, China",Shenzhen,1,validation,typo
+E004,Orion Foods,Orion Components,"Orion Electronics|Orion Components Ltd","Shenzhen, China",Shanghai,0,test,similar_name
+E005,Harbor Textiles Ltd,HarborTextiles,"Harbor Textiles Ltd|Harbor Textile","Chittagong, Bangladesh",Chittagong,1,train,spacing
+E006,Harbour Textile,HarborTextiles,"Harbor Textiles Ltd|Harbor Textile","Chittagong, Bangladesh",Bangladesh,1,validation,spelling
+E007,Harbor Logistics,HarborTextiles,"Harbor Textiles Ltd|Harbor Textile","Chittagong, Bangladesh",Chittagong,0,test,shared_token
+E008,North Star Metals,NorthStar Metals,"North Star Metals|NSM","Hamburg, Germany",Hamburg,1,train,spacing
+E009,NSM,NorthStar Metals,"North Star Metals|NSM","Hamburg, Germany",Germany,1,validation,acronym
+E010,Northstar Mining,NorthStar Metals,"North Star Metals|NSM","Hamburg, Germany",Berlin,0,test,similar_name
+E011,Sakura Precision Co,Sakura Precision,"Sakura Precision Co|Sakura Precision Osaka","Osaka, Japan",Osaka,1,train,suffix
+E012,Sakura Precison,Sakura Precision,"Sakura Precision Co|Sakura Precision Osaka","Osaka, Japan",Japan,1,validation,typo
+E013,Sakura Foods,Sakura Precision,"Sakura Precision Co|Sakura Precision Osaka","Osaka, Japan",Tokyo,0,test,shared_token
+E014,Andes Pack,Andes Packaging,"Andes Pack|Andes Packaging SA","Sao Paulo, Brazil",Brazil,1,train,alias
+E015,Andes Packaging SA,Andes Packaging,"Andes Pack|Andes Packaging SA","Sao Paulo, Brazil",Sao Paulo,1,validation,suffix
+E016,Andes Paper,Andes Packaging,"Andes Pack|Andes Packaging SA","Sao Paulo, Brazil",Lima,0,test,shared_token
+E017,Delta Chemical Corp,Delta Chemicals,"Delta Chemical Corp|Delta Chem","Houston, USA",Houston,1,train,suffix
+E018,Delta Chem,Delta Chemicals,"Delta Chemical Corp|Delta Chem","Houston, USA",USA,1,validation,abbreviation
+E019,Delta Airlines,Delta Chemicals,"Delta Chemical Corp|Delta Chem","Houston, USA",Atlanta,0,test,ambiguous_brand
+E020,Meridian Polymer,Meridian Plastics,"Meridian Polymer|Meridian Plastics Pte","Singapore",Singapore,1,train,alias
+E021,Meridian Plastic,Meridian Plastics,"Meridian Polymer|Meridian Plastics Pte","Singapore",Singapore,1,validation,singular
+E022,Meridian Shipping,Meridian Plastics,"Meridian Polymer|Meridian Plastics Pte","Singapore",Singapore,0,test,location_trap
+E023,Nile Industries,Nile Industrial,"Nile Industries|Nile Industrial Egypt","Cairo, Egypt",Cairo,1,train,plural
+E024,Nile Insurance,Nile Industrial,"Nile Industries|Nile Industrial Egypt","Cairo, Egypt",Cairo,0,test,shared_token
+E025,Orion Components,Orion Components,"Orion Electronics|Orion Components Ltd","Shenzhen, China",Warsaw,0,validation,exact_name_wrong_location
+E026,Delta Chemicals,Delta Chemicals,"Delta Chemical Corp|Delta Chem","Houston, USA",Atlanta,0,validation,exact_name_wrong_location
+E027,NSM Logistics,NorthStar Metals,"North Star Metals|NSM","Hamburg, Germany",Hamburg,0,validation,acronym_collision
+E028,Andes Pack Solutions,Andes Packaging,"Andes Pack|Andes Packaging SA","Sao Paulo, Brazil",Chile,0,validation,alias_collision
+E029,Orion Componentz,Orion Components,"Orion Electronics|Orion Components Ltd","Shenzhen, China",Shenzhen,1,test,hard_typo
+E030,Delta Chemicals,Delta Chemicals,"Delta Chemical Corp|Delta Chem","Houston, USA",Dallas,0,test,exact_name_wrong_location
+E031,Sakura Precision Motors,Sakura Precision,"Sakura Precision Co|Sakura Precision Osaka","Osaka, Japan",Tokyo,0,test,subsidiary_ambiguity
+E032,Nile Industrial Group,Nile Industrial,"Nile Industries|Nile Industrial Egypt","Cairo, Egypt",Cairo,1,test,group_suffix
+E033,Meridian Plastics Asia,Meridian Plastics,"Meridian Polymer|Meridian Plastics Pte","Singapore",Singapore,1,test,regional_suffix
+E034,Harbor Textile Machinery,HarborTextiles,"Harbor Textiles Ltd|Harbor Textile","Chittagong, Bangladesh",Dhaka,0,test,alias_collision
+E035,Sakura Precision,Sakura Precision,"Sakura Precision Co|Sakura Precision Osaka","Osaka, Japan",Osaka,1,test,exact_positive

@@ -4,6 +4,14 @@
   A decision-support system that turns supplier performance and disruption news into a ranked, explainable procurement action queue.
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/Streamlit-dashboard-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit dashboard">
+  <img src="https://img.shields.io/badge/tests-27%20passing-168363" alt="27 tests passing">
+  <img src="https://img.shields.io/badge/license-MIT-334155" alt="MIT license">
+</p>
+
+![A container port, factory, and warehouse connected by global logistics routes](docs/assets/supplier-risk-intelligence-hero.png)
 
 ## The problem
 

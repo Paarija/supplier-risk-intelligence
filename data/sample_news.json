@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Major Shenzhen port congestion delays component exports",
+    "snippet": "Shipping congestion near Shenzhen is causing severe delays for electronics exporters, including the Orion supplier network.",
+    "full_text": "A major port congestion event near Shenzhen has delayed electronics exports. Orion Components customers may face delays of 14 days.",
+    "url": "https://example.com/demo/shenzhen-port",
+    "source": "Demo Logistics Wire",
+    "published_at": "2026-08-28T09:00:00+00:00"
+  },
+  {
+    "title": "Shenzhen shipping queues grow amid port disruption",
+    "snippet": "Exporters report severe queues and delays at Shenzhen terminals.",
+    "full_text": "The same Shenzhen port disruption continues to affect component shipments.",
+    "url": "https://example.com/demo/shenzhen-duplicate",
+    "source": "Demo Trade Daily",
+    "published_at": "2026-08-29T11:00:00+00:00"
+  },
+  {
+    "title": "Flood warning disrupts factories around Houston",
+    "snippet": "A severe storm and flood warning may close chemical plants for seven days in Houston.",
+    "full_text": "Delta Chemicals is among industrial suppliers preparing for a possible factory shutdown during flooding.",
+    "url": "https://example.com/demo/houston-flood",
+    "source": "Demo Weather Desk",
+    "published_at": "2026-09-02T07:30:00+00:00"
+  },
+  {
+    "title": "Transport strike announced near Chittagong port",
+    "snippet": "Freight workers announced a five-day strike affecting textile shipments from Chittagong.",
+    "full_text": "HarborTextiles shipments could be delayed by a transport strike at Chittagong port.",
+    "url": "https://example.com/demo/chittagong-strike",
+    "source": "Demo Regional News",
+    "published_at": "2026-09-04T14:15:00+00:00"
+  },
+  {
+    "title": "Singapore manufacturing output remains stable",
+    "snippet": "Factories report normal operations and no material shortage.",
+    "full_text": "Routine monthly production figures were published for Singapore.",
+    "url": "https://example.com/demo/singapore-routine",
+    "source": "Demo Business News",
+    "published_at": "2026-09-03T08:00:00+00:00"
+  },
+  {
+    "title": "Historic storm archive from 2022",
+    "snippet": "An old storm caused shipping disruption four years ago.",
+    "full_text": "This archived article is intentionally outside the recent-news window.",
+    "url": "https://example.com/demo/old-storm",
+    "source": "Demo Archive",
+    "published_at": "2022-01-10T08:00:00+00:00"
+  },
+  {
+    "title": "Local football club announces new coach",
+    "snippet": "The team begins training next week.",
+    "full_text": "This article is intentionally unrelated to supply-chain risk.",
+    "url": "https://example.com/demo/sports",
+    "source": "Demo Sports",
+    "published_at": "2026-09-01T08:00:00+00:00"
+  }
+]
+
